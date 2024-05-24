@@ -1,0 +1,18 @@
+        private void reCalcular()
+        {
+
+            List<int> posicoesDasLinhas = new List<int>();
+            decimal g = posicoesDasLinhas.Sum();
+            for (int i = 0; i < gridView1.RowCount; i++)
+            {
+                string cellValue = gridView1.GetRowCellValue(i, "F").ToString();
+              
+                if (cellValue.Equals("B")rubricaNegrito))
+                {
+                    posicoesDasLinhas.Add(i);
+                }
+            }
+            row =>        }
+ 
+ 
+
